@@ -4,7 +4,17 @@ A Flutter project demonstrating how to build an animated, responsive app layout 
 
 ## 📱 Project Overview
 
-This application showcases a responsive email-style interface that adapts smoothly between mobile and desktop layouts with elegant animations. The app demonstrates adaptive navigation patterns and seamless transitions between different screen sizes.
+This application showcases a responsive email-style interface that adapts smoothly between mobile and tablet layouts with elegant animations. The app demonstrates adaptive navigation patterns and seamless transitions between different screen sizes.
+
+## 📸 Screenshots
+
+### Tablet Layout (Horizontal)
+![Tablet View](screenshots/tablet.png)
+*Horizontal layout with navigation rail and expanded content area*
+
+### Mobile Layout (Vertical)
+![Mobile View](screenshots/mobile.png)
+*Vertical layout with bottom navigation bar*
 
 ## 🎓 What I Learned
 
@@ -12,7 +22,7 @@ This application showcases a responsive email-style interface that adapts smooth
 - Building adaptive layouts that respond to different screen sizes
 - Implementing breakpoint-based UI changes (600px, 800px, 1200px, 1600px)
 - Using `MediaQuery` to detect screen dimensions and adapt accordingly
-- Creating fluid transitions between mobile and desktop layouts
+- Creating fluid transitions between mobile and tablet layouts
 
 ### **Material 3 Design System**
 - Implementing Material 3 components and color schemes
@@ -28,7 +38,7 @@ This application showcases a responsive email-style interface that adapts smooth
 - Coordinating multiple animations simultaneously
 
 ### **Adaptive Navigation**
-- Switching between bottom navigation bar (mobile) and navigation rail (desktop)
+- Switching between bottom navigation bar (mobile) and navigation rail (tablet)
 - Animating navigation component transitions
 - Implementing disappearing/appearing navigation elements
 - Managing navigation state across different layouts
@@ -53,7 +63,7 @@ This application showcases a responsive email-style interface that adapts smooth
 
 ## ✨ Features
 
-- **Responsive Layout**: Automatically adapts between mobile and tablet/desktop views
+- **Responsive Layout**: Automatically adapts between mobile and tablet views
 - **Smooth Animations**: Fluid transitions when resizing or switching layouts
 - **Adaptive Navigation**: Bottom bar for mobile, navigation rail for larger screens
 - **Animated FAB**: Floating action button that morphs and scales based on layout
@@ -129,7 +139,7 @@ The app uses carefully timed animation intervals to create smooth, choreographed
 
 ### Responsive Breakpoints
 - **< 600px**: Mobile layout with bottom navigation
-- **≥ 600px**: Desktop layout with navigation rail
+- **≥ 600px**: Tablet layout with navigation rail
 - **800px - 1600px**: Variable content width scaling
 
 ### Custom Animation Curves
